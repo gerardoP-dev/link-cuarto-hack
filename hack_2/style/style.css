@@ -1,0 +1,53 @@
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+
+body{
+    margin: 0;
+}
+
+
+.caja-azul{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: var(--bg-blue);
+}
+
+.caja-vino{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-color: var(--bg-wine);
+    margin-bottom: 15px;
+}
+
+
+.espacio-izquierda{
+    float: left;
+    width: 100%;
+}
+
+
+.caja-vino-izquierda{
+    width: 60%;
+    height: 100px;
+    padding: 0;
+    float: left;
+    background-color: var(--bg-wine);
+    margin-bottom: 15px;
+}
+
+.margen-caja{
+    clear: left;
+    margin: 15px 30px 10px 30px;
+    
+}
+
+.caja-final{
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg-wine);
+}

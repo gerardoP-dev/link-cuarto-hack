@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+
+:root{
+    --bg-green-circle: #7ED957;
+    --bg-green-stripe-footer: #00BF63;
+    --bg-text-footer: #EEEEEE;
+}
+
+header{
+    
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circulo{
+    width: 55px;
+    height: 55px;
+    background-color: var(--bg-green-circle);
+    margin-left: 100px;
+    position: relative;
+    border-radius: 70px;
+}
+
+.texto-h-1{
+    font-family: "Arimo", sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    width: 270px;
+    position: absolute;
+    left: 90px;
+    top: -60px;
+    
+}
+
+.texto-h-2{
+    font-family: "Arimo", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-right: 100px;
+    
+}
+
+.hero{
+    background-image: url(../img/2.png);
+    background-size: cover;
+    margin: 10px 0px;
+    padding: 100px 20px;
+}
+
+.texto-hero1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    text-align: end;
+    font-size: 50px;
+    background-color: var(--bg-green-stripe-footer);
+    color: var(--bg-text-footer);
+    margin-top: 2px;
+    margin-bottom: 4px;
+    width: 800px;
+}
+
+.espacio-hero1{
+    width: 445px;
+    padding-right: 45px;
+}
+
+.espacio-hero3{
+    text-align: unset;
+    padding-left: 150px;
+    width: 650px;
+    margin-bottom: 40px;
+}
+
+.texto-hero2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    color: var(--bg-text-footer);
+    width: 600px;
+}
+
+.espacio-hero4{
+    padding-left: 90px;
+    margin-top: 80px;
+    margin-bottom: 2px;
+}
+
+.espacio-hero5{
+    width: 510px;
+    padding-right: 40px;
+    padding-left: 13px;
+    margin-top: 4px;
+}
+
+article{
+    padding: 30px 100px;
+    
+}
+
+.titulos-1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    
+    margin-bottom: 5px;
+}
+
+.titulos-2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 5px;
+    
+}
+
+
+.fondo-pr2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.espaciado{
+    width: 400px;
+}
+
+img{
+    margin: 2px 0px;
+    height: 300px;
+}
+
+.img1{
+    width: 300px;
+}
+.img2{
+    width: 300px;
+}
+.img3{
+    width: 300px;
+}
+
+.subtitulos{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 3px 0px;
+}
+
+.abre-bocas{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0px 0px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px 30px;
+    padding: 10px 110px;
+    background-color: var(--bg-green-stripe-footer);
+}
+
+.texto-footer{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--bg-text-footer);
+    
+}

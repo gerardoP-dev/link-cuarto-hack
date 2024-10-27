@@ -1,0 +1,43 @@
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+body{
+    margin: 0;
+
+}
+
+.caja-azul{
+    width: 100%;
+    height: 100px;
+    background-color: var(--bg-blue);
+}
+
+.caja-vino{
+    width: 100%;
+    height: 200px;
+    background-color: var(--bg-wine);
+}
+
+.cajas-espacio-izquierda{
+    position: relative;
+    left: 15%;
+}
+
+.caja-vino-derecha{
+    width: 100%;
+    height: 80px;
+    background-color: var(--bg-wine);
+    margin-top: 20px;
+}
+
+.caja-vino-final{
+    width: 100%;
+    height: 100px;
+    background-color: var(--bg-wine);
+}
+
+.margen-de-caja{
+    margin: 15px 10px 15px 30px;
+}
